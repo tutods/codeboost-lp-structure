@@ -1,0 +1,21 @@
+.custom-container {
+	@apply container mx-auto px-4;
+}
+
+/* Custom Rest */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-titles text-brand-black;
+}
+
+button {
+	@apply font-titles;
+}
+
+body {
+	@apply min-h-screen font-content text-brand-text;
+}

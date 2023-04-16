@@ -10,7 +10,9 @@ const sizes = {
 	// 14px
 	sm: 'h-3.5 w-3.5',
 	// 12px
-	xs: 'h-3 w-3'
+	xs: 'h-3 w-3',
+	// 10px
+	'2xs': 'h-2.5 w-2.5'
 } as const;
 
 type Props = {
