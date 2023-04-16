@@ -8,7 +8,12 @@ export const Header = ({}: Props) => (
 	<header className={'absolute left-0 right-0 top-0 w-full border-b-2 border-b-alt-white'}>
 		<div className="custom-container relative flex items-center justify-between gap-2 py-10">
 			<Link href={'/'} passHref aria-label={'Home | Talent Tech'}>
-				<Image src={'/assets/icons/logo.svg'} alt={'Talent Tech'} width={296} height={40} />
+				<Image
+					src={'/assets/images/logo.svg'}
+					alt={'Talent Tech'}
+					width={296}
+					height={40}
+				/>
 			</Link>
 			<div className="hidden max-w-95 flex-grow items-center justify-between md:flex">
 				<Link
