@@ -1,6 +1,25 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import '@/styles/globals.css';
+import type { AppProps } from 'next/app';
+import { Header } from '@components/ui/Header';
+import { DefaultSeo } from 'next-seo';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <DefaultSeo
+        defaultTitle={'Môre | Talent Tech'}
+        titleTemplate={'%s | Môre'}
+        description={
+          'O programa Môre Educação irá trazer novos conhecimento através de aulas teóricas e práticas focado no processo de Design Centrado no Usuário'
+        }
+        openGraph={{
+          type: 'website',
+          locale: 'pt-BR'
+        }}
+      />
+
+      <Header />
+      <Component {...pageProps} />
+    </>
+  );
 }
