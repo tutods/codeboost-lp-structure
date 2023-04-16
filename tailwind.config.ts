@@ -29,6 +29,9 @@ export default {
 			},
 			zIndex: {
 				1: '1'
+			},
+			boxShadow: {
+				form: '0px 15px 30px -10px rgba(204, 206, 219, 0.4)'
 			}
 		}
 	},

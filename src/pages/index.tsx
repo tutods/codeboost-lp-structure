@@ -12,10 +12,18 @@ export default function Home() {
 						<section>
 							<h1
 								className={
-									'relative z-1 mb-7 text-5xl font-semibold after:absolute after:inset-x-0 after:bottom-1.5 after:-z-1 after:h-2 after:bg-brand-yellow after:content-[""] md:text-6xl md:leading-[77px] md:after:bottom-3.5 md:after:w-[435px]'
+									'relative mb-7 text-5xl font-semibold md:text-6xl md:leading-[77px]'
 								}
 							>
-								Curso completo em design de produto digital
+								Curso completo em design de
+								<br />{' '}
+								<span
+									className={
+										'relative z-1 after:absolute after:inset-x-0 after:bottom-2 after:-z-1 after:h-2 after:bg-brand-yellow after:content-[""] md:after:bottom-3'
+									}
+								>
+									produto digital
+								</span>
 								<Icon
 									size={'2xl'}
 									name={'star'}
@@ -27,9 +35,31 @@ export default function Home() {
 								aulas teóricas e práticas focado no processo de{' '}
 								<strong>Design Centrado no Usuário</strong>
 							</p>
-							<form className={'mb-14'} onSubmit={(evt) => evt.preventDefault()}>
-								<input type="email" name="email" id="email" />
-								<button type="submit">Realizar pré-cadastro</button>
+
+							<form
+								className={
+									'mb-14 flex w-full max-w-lg items-center justify-between gap-4 rounded-full bg-alt-white py-2.5 pl-8 pr-4 shadow-form'
+								}
+								onSubmit={(evt) => evt.preventDefault()}
+							>
+								<input
+									type="email"
+									name="email"
+									id="email"
+									aria-label={'Email'}
+									placeholder={'Insira o seu email'}
+									className={
+										'flex-grow font-medium text-black placeholder-brand-gray outline-none'
+									}
+								/>
+								<button
+									className={
+										'cursor-pointer rounded-full bg-brand-black px-7 py-4 font-titles text-sm font-medium text-alt-white transition-colors duration-300 ease-in-out hover:bg-brand-red'
+									}
+									type="submit"
+								>
+									Realizar pré-cadastro
+								</button>
 							</form>
 							<ul
 								className={
@@ -95,7 +125,9 @@ export default function Home() {
 							<Image
 								src={'/assets/images/illustration.webp'}
 								alt={'Talent Tech'}
-								fill
+								className={'ml-auto block'}
+								width={520}
+								height={672}
 							/>
 						</section>
 					</div>

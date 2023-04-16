@@ -40,7 +40,7 @@ export const Header = ({}: Props) => (
 			</div>
 			<span
 				className={
-					'absolute -bottom-4 rounded-full bg-alt-white px-4 py-2 font-titles text-xs uppercase text-brand-red'
+					'absolute -bottom-4 rounded-full border border-brand-red bg-alt-white px-4 py-2 font-titles text-xs uppercase text-brand-red shadow'
 				}
 			>
 				👉 ️ 100% Free
