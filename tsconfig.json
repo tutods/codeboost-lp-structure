@@ -14,7 +14,18 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "./",
     "paths": {
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@enums/*": ["./src/shared/enums/*"],
+      "@enums": ["./src/shared/enums"],
+      "@constants/*": ["./src/shared/constants/*"],
+      "@constants": ["./src/shared/constants"],
+      "@shared/*": ["./src/shared/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@utils/*": ["./src/utils/*"],
       "@/*": ["./src/*"]
     }
   },

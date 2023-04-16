@@ -1,0 +1,9 @@
+package-lock.json
+dist/
+build/
+*.sass
+node_modules/
+yarn.lock
+pnpm-lock.yaml
+.env
+.env.example
