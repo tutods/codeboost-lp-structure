@@ -1,18 +1,18 @@
 import Image from 'next/image';
 
 export const Brands = () => (
-  <ul className={'md:flex-no-wrap mb-14 flex flex-wrap gap-8 text-brand-gray opacity-80'}>
+  <ul className="md:flex-no-wrap mb-14 flex flex-wrap gap-8 text-brand-gray opacity-80">
     <li>
-      <Image src={'/assets/images/brands/rede.svg'} alt={'Rede'} width={80.11} height={26.24} />
+      <Image alt="Rede" height={26.24} src="/assets/images/brands/rede.svg" width={80.11} />
     </li>
     <li>
-      <Image src={'/assets/images/brands/itau.svg'} alt={'Itaú'} width={61.39} height={25.31} />
+      <Image alt="Itaú" height={25.31} src="/assets/images/brands/itau.svg" width={61.39} />
     </li>
     <li>
-      <Image src={'/assets/images/brands/smiles.svg'} alt={'Smiles'} width={71.47} height={28.12} />
+      <Image alt="Smiles" height={28.12} src="/assets/images/brands/smiles.svg" width={71.47} />
     </li>
     <li>
-      <Image src={'/assets/images/brands/marisa.svg'} alt={'Marisa'} width={96.05} height={20.62} />
+      <Image alt="Marisa" height={20.62} src="/assets/images/brands/marisa.svg" width={96.05} />
     </li>
   </ul>
 );

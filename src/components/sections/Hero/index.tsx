@@ -1,6 +1,7 @@
-import { Icon } from '@components/ui/Icon';
-import Image from 'next/image';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
+
+import { Icon } from '@components/ui/Icon';
 
 const Form = dynamic(() =>
   import('@components/sections/Hero/partials/Form').then((module) => module.Form)
@@ -13,12 +14,10 @@ const Reviews = dynamic(() =>
 );
 export const Hero = () => {
   return (
-    <section
-      className={'bg-background py-48 md:flex md:min-h-[75vh] md:items-center md:justify-center'}
-    >
+    <section className="bg-background py-48 md:flex md:min-h-[75vh] md:items-center md:justify-center">
       <div className="custom-container grid grid-cols-1 items-center gap-36 md:grid-cols-2">
-        <section className={'md:pt-4'}>
-          <h1 className={'relative mb-7 text-5xl font-semibold md:text-6xl md:leading-[77px]'}>
+        <section className="md:pt-4">
+          <h1 className="relative mb-7 text-5xl font-semibold md:text-6xl md:leading-[77px]">
             Curso completo em design de
             <br />{' '}
             <span
@@ -29,12 +28,12 @@ export const Hero = () => {
               produto digital
             </span>
             <Icon
-              size={'2xl'}
-              name={'star'}
-              className={'absolute -top-8 right-0 text-brand-yellow md:top-0'}
+              className="absolute -top-8 right-0 text-brand-yellow md:top-0"
+              name="star"
+              size="2xl"
             />
           </h1>
-          <h2 className={'mb-10 text-lg'}>
+          <h2 className="mb-10 text-lg">
             O programa Môre Educação irá trazer novos conhecimento através de aulas teóricas e
             práticas focado no processo de <strong>Design Centrado no Usuário</strong>
           </h2>
@@ -43,14 +42,14 @@ export const Hero = () => {
           <Brands />
           <Reviews />
         </section>
-        <section className={'relative hidden h-full md:block'}>
+        <section className="relative hidden h-full md:block">
           <Image
-            src={'/assets/images/illustration.webp'}
-            alt={'Talent Tech'}
-            className={'ml-auto block'}
-            width={520}
+            alt="Talent Tech"
+            className="ml-auto block"
             height={672}
-            loading={'lazy'}
+            loading="lazy"
+            src="/assets/images/illustration.webp"
+            width={520}
           />
         </section>
       </div>

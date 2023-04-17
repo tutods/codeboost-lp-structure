@@ -1,20 +1,17 @@
-import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import { Header } from '@components/ui/Header';
 import { DefaultSeo } from 'next-seo';
+
+import { Header } from '@components/ui/Header';
+
+import '@/styles/globals.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        defaultTitle={'Môre | Talent Tech'}
-        titleTemplate={'%s | Môre'}
-        description={
-          'O programa Môre Educação irá trazer novos conhecimento através de aulas teóricas e práticas focado no processo de Design Centrado no Usuário'
-        }
-        twitter={{
-          cardType: 'summary_large_image'
-        }}
+        defaultTitle="Môre | Talent Tech"
+        description="O programa Môre Educação irá trazer novos conhecimento através de aulas teóricas e práticas focado no processo de Design Centrado no Usuário"
+        titleTemplate="%s | Môre"
         openGraph={{
           type: 'website',
           locale: 'pt-BR',
@@ -26,6 +23,9 @@ export default function App({ Component, pageProps }: AppProps) {
               height: 1080
             }
           ]
+        }}
+        twitter={{
+          cardType: 'summary_large_image'
         }}
       />
 
