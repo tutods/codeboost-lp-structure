@@ -19,6 +19,7 @@ The goal of **DevLinks** is build your first website, but, in my case, I have a 
 - [x] Use **Next.js** and **Tailwind CSS**;
 - [x] Use SVG Sprite for the icons;
 - [x] Convert static assets from `.png`/`.jpg` to `.webp`;
+- [x] Create mobile version;
 - [x] Add **ESLint** config.;
 - [x] Add **Prettier** config.;
 - [x] Add **commitlint**;
