@@ -10,26 +10,19 @@ As usually, on this repo you can found some changes when compare with the course
 
 ## 🛠 Skills
 
-![html][html] ![sass][sass] ![javascript][javascript] ![gulp][gulp]
+![nextjs][nextjs] ![tailwindcss][tailwindcss] ![typescript][typescript]
 
 ## 📄 Roadmap
 
 The goal of **DevLinks** is build your first website, but, in my case, I have a few changes when comparing with the course:
 
-- [x] Use Gulp;
-- [x] Use Sass;
+- [x] Use **Next.js** and **Tailwind CSS**;
 - [x] Use SVG Sprite for the icons;
-
-### Fixes
-
-- [x] Change `outline` property on switch to use `::after` with `border` property;
-  - **Why?** The `oultine` on **Safari** appears as a square, don't respect the `border-radius` on switch toggle. But, if you use as `border` on `::after` you can have the same effect.
-
-### What is missing?
-
-- [ ] **ESLint** configuration;
-- [ ] Improve SEO;
-- [ ] Create config to optimize and convert images to `.webp`.
+- [x] Convert static assets from `.png`/`.jpg` to `.webp`;
+- [x] Add **ESLint** config.;
+- [x] Add **Prettier** config.;
+- [x] Add **commitlint**;
+- [x] Add **Husky** and **LintStaged** to add commit hooks.
 
 ## 🔗 More About Me
 
@@ -39,9 +32,9 @@ The goal of **DevLinks** is build your first website, but, in my case, I have a 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/dsousa_12)
 [![instragram](https://img.shields.io/badge/instragram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/dsousa_12)
 
-[html]: https://img.shields.io/badge/html-1C1C1F?style=for-the-badge&logo=html5&logoColor=white
-[sass]: https://img.shields.io/badge/sass-1C1C1F?style=for-the-badge&logo=sass&logoColor=white
-[javascript]: https://img.shields.io/badge/javascript-1C1C1F?style=for-the-badge&logo=javascript&logoColor=white
+[nextjs]: https://img.shields.io/badge/nextjs-1C1C1F?style=for-the-badge&logo=next.js&logoColor=white
+[tailwindcss]: https://img.shields.io/badge/tailwindcss-1C1C1F?style=for-the-badge&logo=tailwindcss&logoColor=white
+[typescript]: https://img.shields.io/badge/typescript-1C1C1F?style=for-the-badge&logo=typescript&logoColor=white
 [gulp]: https://img.shields.io/badge/gulp-1C1C1F?style=for-the-badge&logo=gulp&logoColor=white
 [youtube]: https://img.shields.io/badge/youtube-F04264?style=for-the-badge&logo=youtube&logoColor=white
 [video]: https://youtu.be/LVv1LD7h6Jg
