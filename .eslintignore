@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# next.js
+/dist/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm*
+
+# local env files
+.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+commitlint.config.cjs
+next.config.js
+
+.eslintrc.cjs
+
+vite.config.ts
+tailwind.config.ts
