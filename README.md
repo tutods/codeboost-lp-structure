@@ -1,4 +1,4 @@
-![Devlinks](public/assets/images/cover.webp)
+![Landing Page Structure](public/assets/images/cover.webp)
 
 # Landing Page Structure
 
@@ -36,6 +36,5 @@ The goal of **DevLinks** is build your first website, but, in my case, I have a 
 [nextjs]: https://img.shields.io/badge/nextjs-1C1C1F?style=for-the-badge&logo=next.js&logoColor=white
 [tailwindcss]: https://img.shields.io/badge/tailwindcss-1C1C1F?style=for-the-badge&logo=tailwindcss&logoColor=white
 [typescript]: https://img.shields.io/badge/typescript-1C1C1F?style=for-the-badge&logo=typescript&logoColor=white
-[gulp]: https://img.shields.io/badge/gulp-1C1C1F?style=for-the-badge&logo=gulp&logoColor=white
 [youtube]: https://img.shields.io/badge/youtube-F04264?style=for-the-badge&logo=youtube&logoColor=white
 [video]: https://youtu.be/LVv1LD7h6Jg
